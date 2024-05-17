@@ -25,7 +25,7 @@ iVMS API provides a RESTAPI endpoint that returns PunchClockParadox scores for a
 ## Deployment
 
 ### Requirements
-- Database: SQL Server
+- Database: Microsoft SQL Server
 - Platform: Powershell v5+
 - PowerShell Modules: Polaris | SQLServer
 
