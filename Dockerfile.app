@@ -5,8 +5,8 @@ WORKDIR /src
 COPY ivmsapi.ps1 /src/
 COPY Modules /src/Modules/
 
-RUN apt-get update
-RUN apt-get -y install iputils-ping net-tools telnet iproute2 dnsutils vim
+# uncomment line below for diagnostic tools
+# RUN apt-get update && apt-get -y install iputils-ping net-tools telnet iproute2 dnsutils vim
 
 EXPOSE 8082
 
